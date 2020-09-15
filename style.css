@@ -1,36 +1,25 @@
-body, table, tr, th, td, div{
-    padding-left: 0%;
-    padding-top: 0%;
-    padding-right: 0%;
-    padding-bottom: 0%;
-}
-#canvas {
-    width: 800px;
-    height: 400px;
-    
-}
-.canvas{
-    display:inline-block;
-    display: block;
-    border: 1px solid black;
-    width: 400px;
-}
 
+.canvas{
+    display:block;
+    width: 200px;
+}
+#canvas{
+    width:400px;
+    height:200px;
+}
 .item-input{
-    display:inline-block;
-    width: auto;
-    height:auto;
-    border: 1px solid black;
+    display: block;
+    padding-left:10px;
+    text-align: right;
 }
 .item-list{
-    
-    display: inline-block;
-    border: 1px solid black;
-    
-
+    display: block;
+    padding-left: 10px;
+    border: 1px rgb(78, 74, 74) solid;
 }
-.btn-del-header{
-    display: none;
+.wrp-lst{
+    display: inline-block;
+    margin-top: 20px;
 }
 th{
     border: 1px solid black;
