@@ -1,9 +1,37 @@
+body, table, tr, th, td, div{
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
 #canvas {
     width: 800px;
     height: 400px;
     
-    float: left;
 }
-img{
-    float: left;
+.canvas{
+    display:inline-block;
+    display: block;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.item-input{
+    display:inline-block;
+    width: auto;
+    height:auto;
+    border: 1px solid black;
+}
+.item-list{
+    
+    display: inline-block;
+    border: 1px solid black;
+    
+
+}
+.btn-del-header{
+    display: none;
+}
+th{
+    border: 1px solid black;
 }

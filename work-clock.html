@@ -4,8 +4,47 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <canvas id="canvas" >
-        </canvas>
+        <div>
+            <div class="canvas">
+                <canvas id="canvas" >
+                </canvas>
+            </div>
+
+            <div class="item-input">
+                <div>
+                    <label>item title</label>
+                    <input type="text" name="item title" id="desc"/>
+                </div>
+                <div>
+                    <label>hour</label>
+                    <input type="text" name="hour" id="hour"/>
+                </div>
+                <div>
+                    <label>minute</label>
+                    <input type="text" name="minute" id="minute"/>
+                </div>
+                <div>
+                    <label>second</label>
+                    <input type="text" name="second" id="second"/>
+                </div>
+                <input type="button" id="addItem" value="Add Item" onclick="addItem();"/>
+            </div>
+            
+            <div class="item-list">
+                <span>Click row to delete</span>
+                <div>
+                    <table id="tbl-item">
+                        <tr>
+                            <th>item title</th>
+                            <th>hour</th>
+                            <th>minute</th>
+                            <th>second</th>
+                            <!--<th>Del<input type="button" value="Del" class="btn-del-header"/> </th>-->
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
     </body>
     
     <script src="clock.js"></script>
